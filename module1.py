@@ -10,8 +10,19 @@
 #-------------------------------------------------------------------------------
 
 def main():
-    print (2**3)
+    #onemillionlittlefibers()
+    whileloop()
 
+def onemillionlittlefibers():
+    for jonq in range(0, 1000000):
+        print(jonq)
+
+
+def whileloop():
+    x = 1
+    while x <= 100:
+        print (x)
+        x = x + 1
 
 if __name__ == '__main__':
     main()
