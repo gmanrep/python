@@ -14,10 +14,10 @@ def main():
     name = raw_input("enter your name")
     password = raw_input("enter your password")
 
-    if name == "mary" or password == "catfood":
-        print ("hello mary")
+    if name != "dwight" or password == "catfood":
+        print ("thank god you're not dwight")
     else:
-        print ("name or password mismatch")
+        print ("go away dwight..")
 
 if __name__ == '__main__':
     main()
